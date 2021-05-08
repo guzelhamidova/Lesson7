@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:text="0"
+            android:textSize="80sp"
+            android:textColor="@color/white"
+            android:textAlignment="viewEnd"
+            />
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/res"
+        android:rowCount="5"
+        android:columnCount="4">
+
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="180dp"
+            android:layout_width="90dp"
+            android:layout_rowSpan="2"
+            android:background="@drawable/cal_btn"/>
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="180dp"
+            android:layout_columnSpan="2"
+            android:background="@drawable/cal_btn"/>
+
+        <Button
+            android:layout_height="90dp"
+            android:layout_width="90dp"
+            android:background="@drawable/cal_btn"/>
+
+
+
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
